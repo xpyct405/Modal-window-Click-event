@@ -33,3 +33,15 @@ modal.onclick = function (e) {
 		modal.style.display = 'none'; // скрываем элемент т к клик был за его пределами
 	}
 }
+
+
+// если картинок много то 
+// let img = document.querySelectorAll('.myImg');
+
+// for (let i = 0; i <img.length; i++) {
+//   img[i].addEventListener('click', function(){
+//     modal.style.display = "block";
+//     modalImg.src = this.src;
+//     captionText.innerHTML = this.alt; 
+//   })
+// }
